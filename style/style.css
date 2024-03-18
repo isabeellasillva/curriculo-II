@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Krona+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: rgb(88, 4, 4);
+    color: white ;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family:'Darker Grotesque';
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+
+strong {
+    color: rgb(241, 146, 146);
+}
+
+.apresentacao{
+  padding: 5%  15%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+} 
+
+.apresentacao__conteudo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family:'Darker Grotesque';
+    gap: 60px;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px
+}
+
+.apresentacao__links__subtitulo {
+    font-family:'Krona One';
+    font-weight:400 ;
+    gap: 82px;;
+}
+
+.apresentacao__links__link{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid white;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Darker Grotesque';
+}
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: whitesmoke;
+    gap:82%;
+
+}
+
+
+.apresentacao__links__link:hover{
+    background-color: rosybrown;
+    padding: 3%;
+}
+
+.apresentacao__imagem{
+    width: 50%;
+}
+
+
+
+.rodape{
+    padding: 16px;
+    color: rgb(88, 4, 4);
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Darker Grotesque';
+    font: size 1.5rem;;
+    font-weight: 600px;
+
+
+}
+
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: whitesmoke;
+    gap: 82px;
+}
+
+@media (max-width: 1200px) {
+   body{
+    background-color: #1D243D;
+   }
+   
+    .cabecalho{
+    padding: 10%;
+   }
+
+   .cabecalho__menu{
+    justify-content: center;
+   }
+   
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
+
+
+
+
+
